@@ -1,5 +1,9 @@
+
 #pragma once
 #include <time.h>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 namespace CClock
 {
     #ifdef _WIN32
